@@ -1,0 +1,23 @@
+generate.normal <- function(S,n,mu,sigma){
+   
+  dat <- matrix(rnorm(n*S,mu,sigma),ncol=n,byrow=T) 
+
+#  Note: for this very simple data generation, we can get the data
+#  in one step like this, which requires no looping.  In more complex
+#  statistical models, looping is often required to set up each
+#  data set, because the scenario is much more complicated.  Here is
+#  a loop to get the same data as above; try running the program and see
+#  how much longer it takes!
+
+#  dat <- NULL
+#
+#   for (i in 1:S){
+#
+#      Y <- rnorm(n,mu,sigma)
+#      dat <- rbind(dat,Y)
+#
+#   }
+
+   out <- list(dat=dat)
+   return(out)
+}
