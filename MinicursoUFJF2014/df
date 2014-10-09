@@ -1,6 +1,0 @@
-#Densidade da t-student
-
-function dt(x, df)
- dtout=(gamma((df+1)/2)/(sqrt(df*pi)*gamma(df/2)))*(1 + x.^2/df).^(-(df+1)/2)
- return(dtout)
-end
