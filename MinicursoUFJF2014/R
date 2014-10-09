@@ -1,3 +1,5 @@
+#6.1.1 Simulações para propriedades do teste de hipótese
+
 generate.normal <- function(S,n,mu,sigma){
    
   dat <- matrix(rnorm(n*S,mu,sigma),ncol=n,byrow=T) 
