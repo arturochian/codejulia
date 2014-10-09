@@ -1,0 +1,26 @@
+Site: http://www.ime.usp.br/~abe/emr2015/paginas/workshop%20
+Programação: http://www.ime.usp.br/~abe/emr2015/paginas/programacao
+
+Workshop
+ 
+
+Título: Modelos de regressão em Julia
+
+ 
+
+O principal objetivo do workshop é oferecer a pesquisadores de todas as áreas da ciência uma introdução nos modelos de regressão através da interação com Julia (http://www.julialang.org). O desenvolvimento de Julia começou em 2009 e uma versão de código aberto foi divulgado em fevereiro de 2012.
+
+ 
+
+Julia é uma linguagem dinâmica, apropriada para computação numérica e científica, com um desempenho comparável a linguagens estáticas tradicionalmente utilizadas, tem uma sintaxe similar a do GNU Octave ou MATLAB. 
+
+ 
+
+O workshop irá apresentar diferentes tipos modelos de regressão usando Julia. Também sera apresentado uma introdução ao novo linguagem, assim como uma pequena comparação entre o R e Julia para conhecer algumas vantagens e desvantagen. Portanto, ao final do curso, o participante conseguirá de maneira introdutória fazer a interação Julia e os modelos de regressão que poderá ser desenvolvida posteriormente. Para fazer o curso é necessário conhecimento básico dos modelos lineares.
+
+ 
+
+W1: Modelos  de regressão em Julia.
+
+Coordenação: 
+Luis Benites Sánchez, IME-USP
