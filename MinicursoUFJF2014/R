@@ -1,4 +1,7 @@
 #6.1.1 Simulações para propriedades do teste de hipótese
+#Fonte:http://www4.stat.ncsu.edu/~davidian/st810a/mean.R
+
+#Codigo 1
 
 generate.normal <- function(S,n,mu,sigma){
    
