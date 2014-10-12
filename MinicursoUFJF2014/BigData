@@ -1,0 +1,12 @@
+
+function fact(n::BigInt)                                                                                                                                      
+    if n == BigInt(1)                                                                                                                                         
+        n                                                                                                                                             
+    else                                                                                                                                              
+        n * fact(n-BigInt(1))                                                                                                                             
+    end                                                                                                                                               
+end  
+
+println(fact(BigInt(10)))
+
+http://stackoverflow.com/questions/21127770/factorial-function-works-in-python-returns-0-for-julia
