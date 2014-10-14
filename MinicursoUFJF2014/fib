@@ -1,3 +1,4 @@
+#Em R
 fib <- function(n)
    {
    ifelse(n < 2, n, fib(n - 1) + fib(n - 2))
@@ -7,3 +8,12 @@ fib(25)
 
 end <- Sys.time()
 end - start
+
+#Em Julia
+function fib(n)
+     if n <= 2
+      1.0
+     else
+       fib(n-1)+fib(n-2);
+     end
+end
